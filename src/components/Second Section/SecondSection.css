@@ -1,0 +1,133 @@
+.containerone{
+  background: white;
+  margin-top: 30px;
+  height: 100vh;
+}
+
+.cardsarrange{
+    display: flex;
+    padding-left: 90px;
+    animation: slideIn 1.5s ease-in-out forwards ;
+}   
+.head{
+    font-weight: 400;
+font-size: 41px;
+line-height: 61px; 
+text-align: center;
+padding: 20px 0px 10px 0px; 
+}
+
+.images img{
+    padding: 15px;
+}
+.cardsarrange p{
+    margin-top: -200px;
+    margin-left: 35px;
+    font-style: normal;
+font-weight: bold;
+font-size: 25px;    
+width: 248px;
+color: #FFFFFF;
+text-align: center;
+justify-content: center;
+
+}
+
+.cardsarrange2 p{
+    margin-top: -200px;
+    margin-left: 35px;
+    font-style: normal;
+font-weight: bold;
+font-size: 25px;    
+width: 241px;
+color: #FFFFFF;
+text-align: center;
+justify-content: center;
+
+}
+.cardsarrange2{
+    display: flex;
+    padding-left: 250px;
+    margin-top:60px;
+}
+
+.cardsarrange2 img{
+    padding:50px;
+}
+.images img:hover{
+    cursor: pointer ;
+}
+
+.pic1{
+    position: relative;
+    top: 1rem;
+
+}
+
+.line1{
+    position: absolute;
+    width: 115px;
+    height: 76px;
+    left: 144px;
+    top: 991px;
+color: #FFFFFF;
+}
+.line2{
+    position: absolute;
+
+left: 391px;
+top: 991px;
+}
+
+.card1 h5{
+    width: 250px;
+    height: 100px;  
+  text-align: center;
+  padding-top: 80px;
+  font-weight: bold;
+  padding-left: 50px;
+    
+}
+
+.card2 h5{
+    width: 350px;
+    height: 190px; 
+  text-align: center;
+  padding-top: 150px;
+  padding-left: 110px;
+  font-weight: bold;
+    
+}
+
+card2 {
+    width: 279px;
+    height: 216px;
+    background:transparent;
+}
+
+@media screen and (max-width: 1360px) {
+    .containerone{
+        margin-top: 25vh;
+        height: 330vh;
+    }
+    .cardsarrange{
+        flex-direction: column;
+        padding-left: 20%;
+    }
+    .cardsarrange img{
+        margin-top: 80px;
+    }
+    .cardsarrange2 img{
+        margin-top: 100px;
+    }
+    .cardsarrange2{
+        flex-direction: column;
+        padding-left: 20%;
+
+    }
+    .head{
+        font-weight: 400;
+        font-size: 25px;
+    }
+}
+

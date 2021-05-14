@@ -1,0 +1,95 @@
+.containersix{
+    margin-top:20px;
+    background: white;
+}
+.ups{
+    padding-top: 30px;
+    display: flex;
+}
+.rs{
+    padding-left: 100px;
+    width: 50%;
+}
+.ls{
+    padding-left: 100px;
+    width: 50%;
+}
+
+.downs{
+    margin-top:20px;
+    display: flex;
+}
+
+.ls2{
+    width: 50%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rs2 li{
+    list-style: none;
+}
+
+.rs2 p{
+    padding-left: 38px;
+}
+
+.up{
+    display: flex;
+}
+
+.mp{
+    width: 150px;
+}
+
+.lp{
+    display: flex;
+    width: 190px;
+}
+
+.copyright{
+    margin-left: 400px;
+    padding-bottom: 20px;
+}
+
+.sm{
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+.email{
+    width: 435px;
+height: 45px;
+background: #E5E5E5;
+border-radius: 30px;
+}
+
+.emailbutton{
+    top: 3655px;
+    left:1100px;
+}
+
+@media screen and (max-width: 1140px){
+    .ups{
+        display: flex;
+        flex-direction: column;
+    }
+    .downs{
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright{
+        margin-left: 10px;
+
+    }
+    .rs{
+        padding-left: 50px;
+    }
+    .email{
+        width: 200px;
+    }
+    .sm{
+        margin-left: 33%;
+    }
+}

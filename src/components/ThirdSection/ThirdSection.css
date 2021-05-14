@@ -1,0 +1,46 @@
+.sectionthree{
+    background: white;
+    margin-top: 50px;
+}
+
+.containertwo{
+    display: flex;
+}
+
+.fh{
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.fh p{
+    width: 40%;
+}
+
+@media screen and (max-width: 1140px){
+    .containertwo{
+        display: flex;
+        flex-direction: column;
+    }
+    .wordpress{
+        margin-left: 70px;
+    }
+    .fh{
+        padding-top: 30px;
+    }
+    .wordpresspara{
+        margin-left: 70px;
+        width: 40%;
+    }
+    .circularlogo{
+        margin-top: 30px;
+        margin-left: 30%;
+        height: 325px;
+        width: 300px;
+        margin-left: 12%;
+        padding-bottom: 16px;
+    }
+    .wordpressbutton{
+        margin-left: 70px;
+    }
+}
+
