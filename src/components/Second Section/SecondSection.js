@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ useEffect} from 'react'
 import './SecondSection.css'
 import pic1 from './pic 1.png'
 import pic2 from './pic 2.png'
@@ -7,13 +7,17 @@ import pic4 from './pic 4.png'
 import pic5 from './pic 5.png'
 import pic6 from './pic 6.png'
 import pic7 from './pic 7.png'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 const SecondSection = () => {
-    
+    useEffect(()=>{
+        Aos.init({duration:2000})
+      },[])
     return (
         <div className="containerone">
         <h2 className="head">Power2Create</h2>
         <h2 className="head">Because we help building a rewarding business and one step IT solution.</h2>
-        <div className="cardsarrange square">
+        <div data-aos="fade-up" className="cardsarrange square">
             <div className="f1">
             <img className="shadow-lg p-3 mb-5 bg-body rounded" src={pic1} alt="pic 1"></img>
             <p>Business Planning</p>
@@ -31,7 +35,7 @@ const SecondSection = () => {
             <p>Fundraising &amp; Valuation</p>
             </div>
         </div>
-        <div className="cardsarrange2 square">
+        <div data-aos="fade-up" className="cardsarrange2 square">
             <div className="f1">
             <img className="shadow-lg p-3 mb-5 bg-body rounded" src={pic5} alt="pic 5"></img>
             <p>Idea Identification &amp; Assessment</p>

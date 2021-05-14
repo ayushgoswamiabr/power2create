@@ -10,6 +10,12 @@
     padding-left: 100px;
     width: 50%;
 }
+
+.rs2 li a{
+    text-decoration: none;
+    color: #0682B7, 100%;
+    padding-top: 40px;
+}
 .ls{
     padding-left: 100px;
     width: 50%;
