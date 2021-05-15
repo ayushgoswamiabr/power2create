@@ -1,14 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Footer.css'
 import facebook from './facebook1.png'
 import linkedin from './linkedin.png'
 import instagram from './instagram.png'
 import youtube from './youtube.png'
 import map from './map.png'
-
+import Aos from 'aos'
 const Footer = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+      }, []);
     return (
-        <div className="containersix">
+        <div data-aos="fade-right" className="containersix">
             <div className="ups">
                 <div className="ls">
                 <p>Subscribe to our newsletter for latest updates:</p>

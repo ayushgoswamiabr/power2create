@@ -83,36 +83,45 @@ img{
     padding-left: 70px;
 }
 
+.f2 img{
+    margin-top: 0px;
+}
+
 @media screen and (max-width: 1140px) {
+    .head{
+        font-size: 0rem;
+        line-height: 35px;
+    }
     .containerfirst{
         display: flex;
         flex-direction: column-reverse;
         max-height: none;
+        padding-top: 30px;
+
     }
     .firsthalf{
         display: flex;
         flex-direction: column;
-        margin-left: 15%;
+            padding-left: 3rem;
     }
 
     .logo2{
         padding-bottom: 30px;
     }
     .secondhalf{
-        padding-top: 30px;
+        padding-top: 10px;
         display: flex;
         flex-direction: column;
-        margin-left: 20%;
+        margin:auto;
     }
     .lines{
         display: flex;
-        flex-direction: column;
-        width: 100px;
         margin: auto;
-        padding: 0px;
+        padding: 0px 3rem 0px 2rem;
     }
     .lines p{
         padding-top: 30px;
+        padding-right: 118px;
 
     }
     .bt{
@@ -120,6 +129,22 @@ img{
     }
     .services{
         display: none;
+    }
+    .secondhalf img{
+        height: 40px;
+        width: 60px;
+        padding-left: 0px;
+    }
+    .logos img{
+        margin-top: 0px;
+        display: flex;
+        height: 200px;
+        padding-left: 1rem;
+    }
+   .logos{
+        margin-top: 0px;
+        display: flex;
+        padding-left: 0px;
     }
 }
 

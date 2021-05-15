@@ -90,12 +90,29 @@ border-radius: 30px;
 
     }
     .rs{
+        display: flex;
         padding-left: 50px;
     }
     .email{
         width: 200px;
     }
     .sm{
-        margin-left: 33%;
+        margin-left: 3rem;
+        padding-bottom: 20px;
     }
+    .ls{
+        width: 109%;
+    font-size: 15px;
+    padding-left: 1rem;
+    }
+    .ls2{
+        margin-left: 1rem;
+    }
+    .rs2 p {
+        padding-left: 1rem;
+    }
+    ul{
+        padding-left: 1rem;
+    }
+
 }

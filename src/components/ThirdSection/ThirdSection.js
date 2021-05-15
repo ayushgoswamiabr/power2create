@@ -8,11 +8,11 @@ const ThirdSection = () => {
                 Aos.init({duration:2000})
               },[])
     return (
-            <div className="sectionthree">
+            <div data-aos="fade-up-right" className="sectionthree">
             <h2 className="head">IT Support</h2>
             <div className="containertwo">
                     <div data-aos="fade-right" className="fh">
-                    <h3 className="wordpress">Wordpress</h3>
+                    <h3 className="wordpresspara">Wordpress</h3>
                      <p className="wordpresspara">Wordpress is a free platform for people who want to write and publish their blogs but don't know how to code. It is a top platform to easily make websites without knowing a singlw word to code</p>
                          <button className="wordpressbutton btn1">Know More</button>
 

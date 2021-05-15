@@ -15,7 +15,7 @@ const FifthSection = () => {
       Aos.init({duration:2000})
     },[])
     return (
-        <div className=" containerfour">
+        <div data-aos="zoom-in-up" className=" containerfour">
             <div  className="card-deck container-fluid secondcontainer row">
                 <div data-aos="flip-left" className="card col-lg-3 col-md-6 col-sm-12 shadow-lg p-3 mb-5 bg-white rounded">
                    <img src={cap1} alt="cap1"/>

@@ -58,12 +58,6 @@ justify-content: center;
     cursor: pointer ;
 }
 
-.pic1{
-    position: relative;
-    top: 1rem;
-
-}
-
 .line1{
     position: absolute;
     width: 115px;
@@ -79,25 +73,6 @@ left: 391px;
 top: 991px;
 }
 
-.card1 h5{
-    width: 250px;
-    height: 100px;  
-  text-align: center;
-  padding-top: 80px;
-  font-weight: bold;
-  padding-left: 50px;
-    
-}
-
-.card2 h5{
-    width: 350px;
-    height: 190px; 
-  text-align: center;
-  padding-top: 150px;
-  padding-left: 110px;
-  font-weight: bold;
-    
-}
 
 card2 {
     width: 279px;
@@ -106,28 +81,50 @@ card2 {
 }
 
 @media screen and (max-width: 1360px) {
+    .head{
+        font-size: 0rem;
+        line-height: 35px;
+        height: auto;
+    }
+    .containerone h2{
+        line-height: 26px;
+    }
     .containerone{
-        margin-top: 25vh;
-        height: 330vh;
+        margin-top: 7vh;
+        height: 280vh;
     }
     .cardsarrange{
         flex-direction: column;
-        padding-left: 20%;
+        padding-left: 5rem;
     }
     .cardsarrange img{
         margin-top: 80px;
     }
     .cardsarrange2 img{
-        margin-top: 100px;
+        margin-top: 80px;
     }
     .cardsarrange2{
         flex-direction: column;
         padding-left: 20%;
-
+        padding-left: 5rem;
     }
     .head{
         font-weight: 400;
         font-size: 25px;
+        padding: 10px 20px 10px 10px;
     }
+
+    .f1 img{
+        margin-top: 0px;
+        margin-bottom: 120px;
+    }
+
+    .f5 img{
+        margin-top: 30px;
+    }
+    .f2{
+        margin-top: 33px;
+    }
+
 }
 

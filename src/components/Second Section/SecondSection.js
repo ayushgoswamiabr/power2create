@@ -36,15 +36,15 @@ const SecondSection = () => {
             </div>
         </div>
         <div data-aos="fade-up" className="cardsarrange2 square">
-            <div className="f1">
+            <div className="f5">
             <img className="shadow-lg p-3 mb-5 bg-body rounded" src={pic5} alt="pic 5"></img>
             <p>Idea Identification &amp; Assessment</p>
             </div>
-            <div className="f2">
+            <div className="f6">
             <img className="shadow-lg p-3 mb-5 bg-body rounded" src={pic6} alt="pic 6"></img>
             <p>Pitching &amp; Term Sheet</p>
             </div>
-            <div className="f3">
+            <div className="f7">
             <img className="shadow-lg p-3 mb-5 bg-body rounded" src={pic7} alt="pic 7"></img>
             <p>Website  &amp; App Development</p>
             </div>
