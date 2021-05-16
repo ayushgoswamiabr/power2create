@@ -11,7 +11,7 @@ const Footer = () => {
         Aos.init({ duration: 2000 });
       }, []);
     return (
-        <div data-aos="fade-right" className="containersix">
+        <div data-aos="fade-up" className="containersix">
             <div className="ups">
                 <div className="ls">
                 <p>Subscribe to our newsletter for latest updates:</p>

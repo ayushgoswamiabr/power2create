@@ -91,11 +91,13 @@ card2 {
     }
     .containerone{
         margin-top: 7vh;
-        height: 280vh;
+        height: 100%;
     }
     .cardsarrange{
         flex-direction: column;
-        padding-left: 5rem;
+        padding: 10px 20px;
+        margin: auto;
+    width: fit-content;
     }
     .cardsarrange img{
         margin-top: 80px;
@@ -105,8 +107,9 @@ card2 {
     }
     .cardsarrange2{
         flex-direction: column;
-        padding-left: 20%;
-        padding-left: 5rem;
+        padding: 10px 20px;
+        margin: auto;
+    width: fit-content;
     }
     .head{
         font-weight: 400;
@@ -124,6 +127,12 @@ card2 {
     }
     .f2{
         margin-top: 33px;
+    }
+    .f5{
+        margin-top: 30px;
+    }
+    .f7{
+        margin-bottom: 70px;
     }
 
 }

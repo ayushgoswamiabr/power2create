@@ -102,11 +102,13 @@ img{
     .firsthalf{
         display: flex;
         flex-direction: column;
-            padding-left: 3rem;
+        width: 100%;
+        padding: 0px 7px;
+
     }
 
     .logo2{
-        padding-bottom: 30px;
+        padding:0;
     }
     .secondhalf{
         padding-top: 10px;
@@ -117,12 +119,16 @@ img{
     .lines{
         display: flex;
         margin: auto;
-        padding: 0px 3rem 0px 2rem;
+        padding: 0px 10px;
     }
     .lines p{
         padding-top: 30px;
-        padding-right: 118px;
-
+        font-size: 16px;
+        padding-right: 17px;
+        width: auto;
+    }
+    .para1{
+        padding-right: 10px;
     }
     .bt{
         display: none;
@@ -138,11 +144,11 @@ img{
     .logos img{
         margin-top: 0px;
         display: flex;
-        height: 200px;
+        height: 10rem;
         padding-left: 1rem;
     }
    .logos{
-        margin-top: 0px;
+         margin: auto;
         display: flex;
         padding-left: 0px;
     }
@@ -150,6 +156,7 @@ img{
 
 .btn1:hover{
     animation: changecolor 1s ease;
+    transform: scale(0.95);
 }
 @keyframes changecolor {
     0% {

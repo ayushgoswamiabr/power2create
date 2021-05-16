@@ -17,6 +17,9 @@
 }
 
 @media screen and (max-width: 1140px){
+    .sectionthree{
+        width: 100%;
+    }
     .head{
         line-height: 17px;
     }

@@ -86,7 +86,8 @@ border-radius: 30px;
         flex-direction: column;
     }
     .copyright{
-        margin-left: 10px;
+        margin-left: 0;
+        text-align-last: center;
 
     }
     .rs{
@@ -97,11 +98,12 @@ border-radius: 30px;
         width: 200px;
     }
     .sm{
-        margin-left: 3rem;
+        text-align-last: center;
+        margin-left: 0;
         padding-bottom: 20px;
     }
     .ls{
-        width: 109%;
+        width: 100%;
     font-size: 15px;
     padding-left: 1rem;
     }
